@@ -7,3 +7,12 @@ test(
   "shift_jis"
 );
 
+test(
+  function () {
+    var jis = [0x82, 0xC9, 0x82, 0xD9, 0x82, 0xF1];
+    var expected = "\u306B\u307B\u3093"; // Nihon
+    assert_equals(TextDecoder("shift_jis").decode(new Uint8Array(jis)), expected);
+  },
+  "Shift_JIS Decode"
+);
+

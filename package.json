@@ -1,0 +1,24 @@
+{
+  "name": "stringencoding",
+  "version": "0.0.0",
+  "description": "Encode to/from Typed Array buffers",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/utf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shtylman/stringencoding.git"
+  },
+  "keywords": [
+    "encoding",
+    "ArrayBuffer"
+  ],
+  "author": "Joshua Bell <jsbell@chromium.org>",
+  "license": "Apache License 2.0",
+  "readmeFilename": "README.md"
+}
