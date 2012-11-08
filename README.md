@@ -1,4 +1,4 @@
-# stringencoding
+# stringencoding [![Build Status](https://secure.travis-ci.org/shtylman/stringencoding.png?branch=master)](http://travis-ci.org/shtylman/stringencoding) #
 
 ## basic usage
 
