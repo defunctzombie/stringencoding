@@ -7,6 +7,9 @@
     "example": "examples",
     "test": "test"
   },
+  "devDependencies": {
+    "mocha': "1.6.0"
+  },
   "scripts": {
     "test": "mocha test/utf.js"
   },
